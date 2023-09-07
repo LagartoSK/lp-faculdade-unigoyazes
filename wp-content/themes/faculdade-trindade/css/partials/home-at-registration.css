@@ -1,0 +1,238 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-registration.css");
+
+******************************************************************************************/
+
+
+.at-registration{
+    padding: 70px 0;
+}
+.at-registration header{
+    text-align: center;
+}
+
+.at-registration .row{
+    margin-top: 90px;
+}
+
+
+/* Aqui css do efeito de rotação do card */
+.at-registration_efeito{
+    perspective: 1000px;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.at-registration_box{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all .75s;
+    height: 100%;
+    box-shadow: 0 9px 10px var(--bg-color-secondary);
+}
+.at-registration_box-back, 
+.at-registration_box-front {
+    backface-visibility: hidden;   
+    width: 100%;
+}
+.at-registration_box-back {
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.at-registration_box.flipped, .at-registration_box-back {
+    transform: rotateY(180deg);
+}
+/* Aqui css do efeito de rotação do card */
+
+
+
+.at-registration_box-front {
+    display: flex;
+    border: 2px solid var(--color-details-primary);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.at-registration_box-front_gray{
+    border: 2px solid var(--color-details-secondary);
+
+}
+
+.at-registration_box-back {
+    display: flex;
+    border: 2px solid var(--color-details-primary);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.at-registration_box_left{
+    min-width: 50%;
+    background-color: var(--color-details-primary);
+    padding: 30px 20px;
+    text-align: center;
+}
+.bg-gray{
+    background-color: var(--color-details-secondary);
+
+}
+
+.at-registration_box_right{
+    padding: 30px 20px;
+    position: relative;
+
+}
+.at-registration_box_right .btn-main_page{
+    position: absolute;
+    bottom: 30px;
+}
+
+.at-title-at-registration_box{
+    color: var(--color-font-white);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.at-registration_box_left_title p{
+    margin: auto;
+    max-width: 128px;
+    color: var(--bg-color-primary);
+}
+
+.at-registration_box_left_price h3{
+    color: var(--color-font-white);
+    font-size: 22px;
+    line-height: 75px;
+    font-weight: 600;
+}
+.at-registration_box_left_price h3 span{
+    font-size: 38px;
+    letter-spacing: -1.25px;
+}
+.at-registration_box_left_price p{
+    font-size: 17px;
+    margin: auto;
+    max-width: 128px;
+    color: var(--color-font-white);
+    margin-bottom: 50px;
+}
+
+.at-registration_box_right_description p{
+    margin-bottom: 30px;
+}
+
+.at-registration_box_left_cupom h3{
+    max-width: 200px;
+    margin: auto;
+    color: var(--bg-color-primary);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.at-registration_box_left_options{
+    cursor: pointer;
+    border-bottom: 1px solid var(--color-font-white);
+    margin: auto;
+    max-width: 138px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.at-registration_box_left_options p{
+    color: var(--color-font-white);
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.at-registration_box_right_link_wapp{
+    padding-top: 70px;
+}
+.at-registration_box_right_link_wapp a{
+    color: var(--color-details-primary);
+    font-size: 13px;
+}
+
+.at-registration_box_right_select_class{
+    padding-top: 50px;
+    border-bottom: 1px solid var(--color-font-white);
+    padding-bottom: 10px;
+    margin-bottom: 80px;
+}
+.at-registration_box_right_select_class select{
+    background-color: transparent;
+    color: var(--color-font-secondary);
+    border: none;
+    width: 95%;
+    font-size: 13px;
+
+}
+
+.at-registration_box_right_select_class p{
+    font-size: 13px;
+    color: var(--color-font-secondary);
+    margin-bottom: 5px;
+}
+
+
+.at-registration_box-back{
+    border-top: 20px solid var(--color-details-primary);
+    display: block;
+    padding: 0 30px;
+}
+.at-registration_box-back h3{
+    color: var(--color-font-secondary);
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+.at-registration_box-back table{
+    width: 100%;
+    border-bottom: 1px solid var(--color-font-white);
+    margin-bottom: 10px;
+}
+.at-registration_box-back table tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    text-align: center;
+    color: var(--color-font-secondary);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.at-registration_box-back_text_info p{
+    font-size: 10px;
+    line-height: 15px;
+    padding-top: 10px;
+}
+
+.at-registration_box-back .btn-main_page{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.at-registration_box-back .btn-voltar{
+    color: var(--color-font-white);
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    margin-top: 60px;
+    /* position: absolute;
+    bottom: 10px;
+    right: 10px; */
+}
+

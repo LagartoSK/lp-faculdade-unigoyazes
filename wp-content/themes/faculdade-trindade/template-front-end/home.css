@@ -1,0 +1,25 @@
+/****************************************************************************************** 
+
+    Arquivo onde vamos linkar todo CSS do site!
+        SEMPRE ATENTO COM AS LINHAS, QUALQUER ERRO pode influenciar no funcionamento do site
+            SEMPRE DEIXAR SOMENTE AS LINHAS DAS SESSÕES REFERENTE AO TAMPLATE
+    
+******************************************************************************************/
+
+@import url("css_pages/home-at-header-main.css");
+
+@import url("css_pages/home-at-teacher.css");
+
+@import url("css_pages/home-at-discipline.css");
+
+@import url("css_pages/home-at-doubts.css");
+
+@import url("css_pages/home-at-app.css");
+
+@import url("css_pages/home-at-registration.css");
+
+@import url("css_pages/home-at-testimony.css");
+
+@import url("css_pages/home-at-related-course.css");
+
+@import url("css_pages/home-at-footer-main.css");

@@ -1,0 +1,16 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/at-related-course.css");
+
+******************************************************************************************/
+
+.at-related-course .row{
+    row-gap: 30px;
+}
+.at-related-course header{
+    text-align: left;
+}

@@ -1,0 +1,132 @@
+/******************************************************************************************
+
+    Arquivo sempre será importado na page HOME.css
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:
+        @import url("css_pages/home-at-teacher.css");
+
+******************************************************************************************/
+.at-teacher{
+    padding: 20px 0;
+}
+.at-teacher header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.at-teacher .at-title-main{
+    font-size: 37px;
+}
+.swiper-slide{
+    padding-bottom: 50px;
+}
+.at-teacher_box{
+    border-radius: 5px;
+    box-shadow: 0 9px 10px rgba(0,0,0,.35);
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 120%;
+    position: relative;
+    transition: all .15s;
+    z-index: 0;
+}
+
+.at-teacher_box:before {
+    background: linear-gradient(transparent, 48.3%,var(--bg-color-primary));
+    bottom: -1px;
+    content: "";
+    height: 50%;
+    left: 0;
+    position: absolute;
+    transition: all .15s;
+    width: 100%;
+    z-index: -1;
+}
+
+.at-teacher_box:hover{
+    transform: translateY(-15px);
+}
+
+
+.at-teacher_box img{
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.at-teacher_box_info{
+    bottom: 0;
+    left: 0;
+    padding: 0 25px 20px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.at-teacher_box_info_hidden{
+    display: none;
+}
+.at-teacher_box:hover .at-teacher_box_info_hidden{
+    display: block;
+}
+.at-teacher_box_info .at-title-main{
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.at-teacher_box_info_hidden p{
+    font-size: 10px;
+    line-height: 15px;
+    margin: 10px 0 20px 0;
+}
+
+.at-teacher_box_info .btn-main_page{
+    font-size: 9px;
+}
+
+
+
+.at-all-teacher{
+    padding-bottom: 80px;
+}
+
+.at-all-teacher-container{
+    position: relative;
+}
+
+.at-all-teacher-container .swiper-button-prev,
+.at-all-teacher-container .swiper-button-next{
+    color: var(--color-details-primary);
+}
+
+.at-all-teacher-container .swiper-button-next{
+    right: -50px;
+}
+.at-all-teacher-container .swiper-button-prev{
+    left: -50px;
+}
+
+
+.at-all-teacher .at-title-main{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.at-all-teacher .at-teacher_box_info .at-title-main{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.at-all-teacher .at-teacher_box_info strong{
+    color: var(--color-details-primary);
+}
+
+.at-all-teacher_btns{
+    text-align: center;
+    margin-top: 50px;
+}

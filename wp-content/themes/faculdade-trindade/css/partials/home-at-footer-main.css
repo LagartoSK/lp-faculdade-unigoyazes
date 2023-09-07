@@ -1,0 +1,47 @@
+/******************************************************************************************
+
+    Arquivo sempre será importado na page HOME.css
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:
+        @import url("css_pages/at-footer-min.css");
+
+******************************************************************************************/
+
+.at-footer-main{
+    padding: 50px 0 70px;
+}
+
+.at-footer-main .row{
+    justify-content: space-between;
+}
+
+.at-footer-main_box h4{
+    color: var(--color-font-secondary);
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.at-footer-main_box ul li {
+    padding-bottom: 15px;
+}
+.at-footer-main_box ul li a{
+    color: var(--color-font-secondary);
+    font-size: 15px;
+}
+
+
+.padding-footer{
+    padding-right: 30px;
+}
+
+
+.at-btns-float{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    gap: 20px;
+    z-index: 999;
+}

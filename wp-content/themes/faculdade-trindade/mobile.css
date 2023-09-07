@@ -1,0 +1,97 @@
+@media screen and (max-width: 992px){
+
+}
+
+/***** Tamanho para smartphones na vertical *****/
+@media screen and (max-width: 576px){
+    .at-banner-main{
+        padding: 20px 0 80px 0;
+    }
+    .at-title_banner{
+        font-size: 35px;
+    }
+    .at-teacher .at-title-main {
+        font-size: 28px;
+    }
+    .container-fluid{
+        justify-content: center !important;
+    }
+    .at-header-btns{
+        display: none;
+    }
+    .at-banner-main_selo{
+        display: none;
+    }
+    .at-discipline {
+        padding: 40px 0;
+    }
+    .at-discipline .accordion-externo .accordion-button {
+        font-size: 16px;
+    }
+    .at-doubts .row{
+        row-gap: 20px;
+    }
+    .at-app .row{
+        row-gap: 20px;
+    }
+    .at-app_box{
+        text-align: center;
+    }
+    .at-app_box_img{
+        display: flex;
+        justify-content: center;
+    }
+    .at-teacher .row{
+        row-gap: 20px;
+    }
+
+}
+/***** Tamanho para smartphones na vertical *****/
+
+/***** Tamanho para smartphones na horizontal *****/
+@media screen and (max-width: 768px) and (min-width: 577px) {
+
+}
+/***** Tamanho para smartphones na horizontal *****/
+
+/***** Tamanho para tablets na vertical *****/
+@media screen and (max-width: 1099px) and (min-width: 769px) {
+
+}
+/***** Tamanho para tablets na vertical *****/
+
+/***** Tamanho para tablets na horizontal *****/
+@media screen and (max-width: 1200px) and (min-width: 1100px) {
+
+}
+/***** Tamanho para tablets na horizontal *****/
+
+/***** Monitores pequenos  *****/
+@media screen and (max-width: 1299px) and (min-width: 992px) {
+
+}
+/***** Monitores pequenos  *****/
+
+/***** Monitores medios  *****/
+@media screen and (max-width: 1499px) and (min-width: 1300px) {
+
+
+}
+/***** Monitores medios  *****/
+
+/***** Monitores extra grandes  *****/
+@media screen and (max-width: 1699px) and (min-width: 1500px) {
+
+}
+/***** Monitores extra grandes  *****/
+
+/***** Monitores extra grandes  *****/
+@media screen and (max-width: 2500px) and (min-width: 1920px) {
+
+}
+/***** Monitores extra grandes  *****/
+@media screen and (max-width: 3000px) and (min-width: 2500px) {
+
+}
+/***** Monitores extra grandes  *****/
+/****Responsivo da página****/

@@ -1,0 +1,122 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-testimony.css");
+
+******************************************************************************************/
+
+.at-testimony header{
+    text-align: center;
+    padding: 70px 0;
+}
+.at-testimony .swiper{
+    padding-top: 30px;
+}
+.at-testimony_box_content{
+    background-color: var(--color-font-white);
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px 35px;
+    flex: 0 0 auto;
+    min-height: 455px;
+}
+
+.at-testimony_box{
+    text-align: center;
+    transition: all .15s;
+}
+.at-testimony_box:hover{
+    transform: translateY(-15px);
+}
+
+.at-testimony_box img{
+    border-radius: 50%;
+    margin-bottom: -40px;
+}
+.at-testimony_box_content{
+    padding: 40px 15px 30px 15px;
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: 0 9px 10px var(--bg-color-secondary);
+}
+
+.at-testimony_box_content p{
+    color: var( --color-details-secondary);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 18px;
+}
+.at-testimony_box_content p::before{
+    content: "";
+    background-image: url(/svg/aspas.svg);
+    margin: 17px auto 15px;
+    display: block;
+    width: 24px;
+    height: 19px;
+}
+.at-testimony_box_content_bottom{
+    margin-top: auto;
+    position: relative;
+}
+.at-testimony_box_content_bottom::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-details-secondary);
+    opacity: .3;
+    display: flex;
+    margin-bottom: 20px;
+}
+.at-testimony_box_content_bottom h4{
+    font-size: 17px;
+    letter-spacing: -.42px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    color: var(--bg-color-primary);
+}
+.at-testimony_box_content_bottom span{
+    color: var(--color-details-secondary);
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.at-testimony .swiper-button-next, 
+.at-testimony .swiper-button-prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-font-white);
+    border: 2px solid var(--color-details-primary);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.at-testimony .swiper-button-next:after, 
+.at-testimony .swiper-button-prev:after {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btns-carousel{
+    max-width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+.at-testimony .swiper-button-prev {
+    top: calc(100% - 40px);
+    left: auto;
+    right: 75px;
+    padding: 0;
+}
+.at-testimony .swiper-button-next {
+    right: 0;
+    padding: 0;
+    top: calc(100% - 40px);
+}

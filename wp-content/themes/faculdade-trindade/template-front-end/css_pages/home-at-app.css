@@ -1,0 +1,69 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-app.css");
+
+******************************************************************************************/
+
+.at-app{
+    background-image: url(../img/bg-at-app.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 50px 0;
+    z-index: -0;
+}
+
+.at-app:before {
+    background: linear-gradient(transparent, 48.3%,var(--bg-color-primary));
+    bottom: -1px;
+    content: "";
+    height: 50%;
+    left: 0;
+    position: absolute;
+    transition: all .15s;
+    width: 100%;
+    z-index: -2;
+}
+
+
+.at-app .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.at-app_box{
+    position: relative;
+    z-index: 999;
+}
+.at-app_box img{
+    max-height: 400px;
+}
+
+.at-app_box .at-title-main{
+    margin: 20px 0;
+    font-size: 37px;
+}
+
+.at-app-details{
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    right: 365px;
+    top: 30%;
+    background-color: var(--color-details-primary);
+    z-index: -1;
+    padding: 10px;
+    border-radius: 50px 0 0 50px;
+}
+.at-app-details p{
+    margin-bottom: 0;
+    line-height: 15px;
+}
+
+.at-app-img{
+    z-index: 99;
+}

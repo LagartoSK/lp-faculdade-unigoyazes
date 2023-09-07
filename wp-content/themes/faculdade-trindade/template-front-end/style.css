@@ -1,0 +1,109 @@
+
+:root{
+    --color-font: #2f2f33;
+    --color-font-secondary: #d5d6d6;
+    --color-font-white: #ffffff;
+
+    --color-details-primary: #c4a575;
+    --color-details-secondary: #5C6F82;
+
+    --bg-color-primary: #142333;
+    --bg-color-secondary: #111c2a;
+}
+
+/******* RESET *******/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px;
+}
+body{
+    background-color: var(--bg-color-primary);
+}
+figure{
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: var(--color-font-secondary);
+    margin-bottom: 10px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    padding: 0;
+}
+
+/******* TITLEs-GLOBAL *******/
+.at-title-main{
+    color: var(--color-font-white);
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.at-sub-title-span{
+    color: var(--color-details-primary);
+    font-size: 12px;
+    font-weight: 400;
+}
+/******* TITLEs-GLOBAL *******/
+
+/******* BUTTON's-GLOBAL *******/
+.btn-main_page{
+    align-items: center;
+    background-color: var(--color-details-primary);
+    border: 2px solid var(--color-details-primary);
+    border-radius: 23px;
+    color: var(--color-font-white);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 11px;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: .77px;
+    line-height: 1;
+    outline: none!important;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .15s;
+    width: auto;
+}
+.btn-main_page:hover{
+    background-color: transparent;
+    border: 2px solid var(--color-details-primary);
+}
+
+.btn-gray{
+    background-color: var(--color-details-secondary);
+    border: 2px solid var(--color-details-secondary);
+}
+.btn-gray:hover{
+    border: 2px solid var(--color-details-secondary);
+}
+.btn-main_page_border{
+    background-color: transparent;
+    border: 2px solid var(--color-details-primary);
+}
+.btn-main_page_border:hover{
+    background-color: var(--color-details-primary);
+    border: 2px solid var(--color-details-primary);
+}
+/******* BUTTON's-GLOBAL *******/

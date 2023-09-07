@@ -1,0 +1,72 @@
+/****************************************************************************************** 
+
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+
+    Exemplo code:     
+        @import url("css_pages/home-at-header-main.css");
+    
+    
+******************************************************************************************/
+
+.at-header-main{
+    background-image: url('/img/banner-main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    position: relative;
+    padding-top: 30px;
+}
+
+.at-header-main::before {
+    background: linear-gradient(transparent, 48.3%,var(--bg-color-primary));
+    bottom: 0;
+    content: "";
+    height: 45%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.at-banner-main{
+    z-index: 99;
+    position: relative;
+    padding: 80px 0;
+}
+.at-banner-main .row{
+    justify-content: space-between;
+}
+
+.at-title_banner{
+    color: var(--color-font-secondary);
+    font-size: 45px;
+    font-weight: 300;
+    padding: 0 0 20px 0;
+}
+
+.at-banner-main_selo{
+    display: flex;
+    justify-content: right;
+}
+.at-banner-main_selo img{
+    max-height: 150px;
+}
+
+.at-banner-detach{
+    width: auto;
+    padding: 5px 15px;
+    margin: 20px 0;
+    display: inline-block;
+    background-color: var(--color-details-primary);
+    color: var(--bg-color-primary);
+}
+
+.at-header-btns{
+    display: flex;
+    gap: 10px;
+}   
+
+.at-banner-main_box_btns{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}

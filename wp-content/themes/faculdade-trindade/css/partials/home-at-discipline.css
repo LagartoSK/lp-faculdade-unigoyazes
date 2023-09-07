@@ -1,0 +1,189 @@
+/******************************************************************************************
+
+Arquivo sempre será importado na page HOME.css
+    ( Ou arquivo usado para links de importação.)
+
+Exemplo code:
+    @import url("css_pages/home-at-discipline.css");
+
+******************************************************************************************/
+
+.at-discipline{
+    padding: 110px 0;
+    background-color: var(--bg-color-secondary);
+}
+.at-discipline header{
+    margin-bottom: 50px;
+}
+.at-discipline header p{
+    color: var(--color-font-white);
+}
+
+
+.at-discipline .accordion{
+    --bs-accordion-border-color: var(--color-details-primary);
+}
+
+.at-discipline .accordion-externo .accordion-button{
+    background-color: var(--bg-color-secondary);
+    color: var(--color-font-white);
+    font-size: 20px;
+    font-weight: 200;
+
+    padding: var(--bs-accordion-btn-padding-y) 0;
+}
+
+.at-discipline .accordion-externo .accordion-item{
+    border-color: var(--color-details-primary);
+    background-color: transparent;
+    color: var(--color-font-white);
+}
+
+.at-discipline .accordion-externo .accordion-item:last-of-type .accordion-button.collapsed{
+    border-bottom: 1px solid var(--color-details-primary);
+
+}
+
+.accordion-externo .accordion-header .accordion-button::before {
+	content: "";
+	width: 17px;
+	height: 2px;
+	top: 50%;
+	right: 15px;
+	position: absolute;
+	z-index: 1;
+	transition: all .5s linear;
+	background-color: var(--color-font-white);
+}
+
+.accordion-externo .accordion-header .accordion-button::after {
+	content: "";
+	width: 2px;
+	height: 17px;
+	bottom: 50%;
+	margin-bottom: -9px;
+	right: 23px;
+	position: absolute;
+	z-index: 1;
+	transition: all 200ms linear;
+	background-color: var(--color-font-white);
+	transform: rotate(90deg);
+}
+
+.accordion-externo .accordion-header .accordion-button.collapsed::after {
+	transform: rotate(0deg);
+}
+
+
+/* AQUI AS CONFIGURAÇÕES DO ACCORDION INTERNO */
+
+.accordion-inner .accordion-item{
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+}
+.accordion-inner .accordion-item p{
+    color: var(--color-font-white) !important;
+}
+.accordion-inner .accordion-button{
+    border-radius: 5px;
+    background-color: var(--bg-color-primary) !important;
+    color: var(--color-font-white);
+}
+
+.accordion-inner .accordion-button:not(.collapsed) {
+    color: var(--color-font-white);
+    box-shadow: none;
+}
+.at-discipline .accordion-inner .accordion-item:last-of-type .accordion-button.collapsed{
+    border-bottom: none !important;
+
+}
+
+.at-discipline .accordion-externo .accordion-inner .accordion-button{
+    font-weight: 200;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x) !important;
+}
+
+
+
+.at-discipline .row > div{
+    position: relative;
+}
+
+.at-discipline .at-disciplinas_carousel{
+    position: absolute;
+    right: 0px;
+    top: -170px;
+    width: 492px;
+    max-width: 100%;
+    padding: 50px 0 60px;
+    text-align: center;
+    box-shadow: 10px 20px 120px 0px rgba(0,0,0,.5);
+    background-image: linear-gradient( 120deg, #289fa1, #86d1a6 );
+}
+
+.at-discipline .at-disciplinas_carousel .swiper-slide{
+    padding-bottom: 0px;
+}
+
+.at-disciplinas_carousel_item {
+    padding: 0 30px;
+}
+
+.at-disciplinas_carousel_item figure{
+    height: 142px;
+    width: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.at-disciplinas_carousel_item figure img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.at-disciplinas_carousel_item h2{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.at-disciplinas_carousel_item p{
+    margin: 0 auto 12px;
+    max-width: 340px;
+    color: #fff;
+}
+
+.at-disciplinas_carousel .slick-dots{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.at-disciplinas_carousel .slick-dots button{
+    border-radius: 50%;
+    margin: 0;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+.at-disciplinas_carousel .slick-dots button.active{
+    background-color: #a3d186;
+}
+
+
